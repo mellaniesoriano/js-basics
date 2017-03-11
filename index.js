@@ -15,7 +15,35 @@ console.log(pet);
 *
 * Each value should be a String. 
 **/
+var firstName = "Mel";
+console.log(firstName);
 
+var lastName = "Soriano";
+console.log(lastName);
+
+var birthPlace = "Hawaii";
+console.log(birthPlace);
+
+var favoriteFood = "Pizza";
+console.log(favoriteFood);
+
+var bestMovie = "Lego Movie";
+console.log(bestMovie);
+
+var favLoveSong = "Galway Girl";
+console.log(favLoveSong);
+
+var cuteAnimal = "Panda";
+console.log(cuteAnimal);
+
+var favColor = "Orange";
+console.log(favColor);
+
+var favSneaker = "Adidas";
+console.log(favSneaker);
+
+var coffeeShop = "Paradox";
+console.log(coffeeShop);
 
 /**
 * #2
@@ -25,6 +53,36 @@ console.log(pet);
 *
 * Each value should be a Number
 **/
+
+var favoriteNumber = 1;
+console.log(favoriteNumber);
+
+var currentYear = 2017;
+console.log(currentYear);
+
+var thatOnePrinceSong = 1;
+console.log(thatOnePrinceSong);
+
+var tokyoOlympics = 2020;
+console.log(tokyoOlympics);
+
+var mariahCareyAge = 46;
+console.log(mariahCareyAge);
+
+var currentTemp = 80;
+console.log(currentTemp);
+
+var studentsInClass = 9;
+console.log(studentsInClass);
+
+var numOfJapanPrefectures = 47;
+console.log(numOfJapanPrefectures);
+
+var currentIphoneModel = 6;
+console.log(currentIphoneModel);
+
+var shoeSize = 8;
+console.log(shoeSize);
 
 
 /**
@@ -36,6 +94,36 @@ console.log(pet);
 * Each value should be a Boolean
 **/
 
+var likesMcDonalds = true;
+console.log(likesMcDonalds);
+
+var watchedMrRobot = true;
+console.log(watchedMrRobot);
+
+var ranMarathon = false;
+console.log(ranMarathon);
+
+var wrestledABear = false;
+console.log(wrestledABear);
+
+var lovesDonuts = true;
+console.log(lovesDonuts);
+
+var readHarryPotter = true;
+console.log(readHarryPotter);
+
+var sleptInClass = false;
+console.log(sleptInClass);
+
+var drinksCoffee = true;
+console.log(drinksCoffee);
+
+var shopsAtWholeFoods = false;
+console.log(shopsAtWholeFoods);
+
+var ownsRedShoes = false;
+console.log(ownsRedShoes);
+
 
 /**
 * #4
@@ -45,12 +133,21 @@ console.log(pet);
 *
 * Each value should be Null 
 **/
+var completedPrepClass = null;
+console.log(completedPrepClass);
 
+var traveledToMars = null;
+console.log(traveledToMars);
+
+var scoredTDinNFL = null;
+console.log(scoredTDinNFL);
 
 /*
 #5. 
 * What is the difference between null and undefined? Type your answer in two or three commented-out sentences.
 */
+
+/* null has one value, whereas undefined does not belong to any variable or it does not exsist. */
 
 
 /**
@@ -65,6 +162,23 @@ console.log(pet);
 * Declare a variable named `mixPlate` and assign it an array containing different data types of your choosing.
 **/
 
+var plateLunch = ["Sushi", "Rice", "Chicken", "Pot Roast", "Salad"];
+console.log(plateLunch);
+
+var fruitBasket = ["Banana", "Lychee", "Mango", "Lemon", "Pineapple"];
+console.log(fruitBasket);
+
+var westCoast = ["California", "Oregon", "Washington"];
+console.log(westCoast);
+
+var lotteryResult = [8, 57, 4, 33, 199];
+console.log(lotteryResult);
+
+var duets = [["Bon Iver", "Bon Jovi"], ["Ed Sheeran", "James Bay"], ["Rudimental", "Armin Van Buuren"]];
+console.log(duets);
+
+var mixPlate = [2018, "Germany", "Czech Republic", "Austria", "Hungary", "Croatia"];
+console.log(mixPlate);
 
 
 /*7
@@ -76,7 +190,10 @@ What is the length of this array? Please print the length (a number) to the cons
 What is the index position of carrot cake? Please print this item to the console.
 What is the index position of lemon bars? Please print this item to the console.
 */
-
+var partyList = ["carrot cake", "rocky road ice cream", "mochiko chicken", "orange tang", "lemon bars"];
+console.log(partyList.length);
+console.log(partyList[0]);
+console.log(partyList[4]);
 
 
 /*
@@ -93,7 +210,14 @@ What is the index position of lemon bars? Please print this item to the console.
 At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 */
 
+var fullName = (firstName + " " + lastName);
+console.log(fullName);
 
+var whereFrom = [fullName + " " + "is from" + " " + birthPlace];
+console.log(whereFrom);
+
+var mariahStory = ("At the age of" + " " + mariahCareyAge + ", Mariah Carey, wearing her fancy" + " " + favSneaker + " " + "sang" + " " + favLoveSong + " " + "at the" + " " + coffeeShop + ".");
+console.log(mariahStory);
 
 /**
 * #9 Arithmetic
@@ -105,11 +229,27 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * Subtract the two variables and store it to a new variable named `difference`.
 * Mulitply the two variables and store it to a new variable named `product`.
 * Divide the two variables and store it to a new variable named `quotient`.
-* What is the remainder when you divide num1 by num2? Print your answer to the console.
+* What is the remainder when you divide num1 by num2? Print your answer to the console. **/
 
+var num1 = (8);
+var num2 = (6);
 
+var sum = (num1 + num2);
+console.log(sum);
+
+var difference = (num1 - num2);
+console.log(difference);
+
+var product = (num1 * num2);
+console.log(product);
+
+var quotient = (num1 / num2);
+console.log(quotient);
+console.log (num1 % num2);
 
 /**
+
+
 * #10
 * Comparisons & Logic
 * Variables with the outcome of a comparison operation:
@@ -122,14 +262,29 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * Declare another variable named `sameNumba` and compare a string "5" and a number 5 using equality.
 * Print both variables to the console. If the answers are different, why? If not, why not? Write you answer two or three commented-out sentences.
 
-
-
 * Use the logical && or || and compare the following:
 * 3>2 3<1 (use or)
 * 3>2 6>3 (use and)
 * 7>2 8<5 (use and)
-* Declare variables and print the results to the console. What are the differences between the three and why?
+* Declare variables and print the results to the console. What are the differences between the three and why? **/
 
+var isStrictlyEqual = ("Tacocat" === "tacocat");
+var isLooselyEqual = ("Tacocat" == "tacocat");
+console.log(isStrictlyEqual);
+console.log(isLooselyEqual);
+/* The answers return false because coding is case sensitive. Tacocat is different from tacocat because one has a capital T vs a lowercase t. */
+
+var compare1 = (3 > 2 || 3 < 1);
+console.log(compare1);
+
+var compare2 = (3 > 2 && 6 > 3);
+console.log(compare2);
+
+var compare3 = (7 > 2 && 8 < 5);
+console.log(compare3);
+/* In order for compare1 to return true only one of the comparisons have to be true. In the example of compare1 3 is greater than 2, therefore the comparison is true when using || (or).
+
+In order for && (and) to be true, both statements need to be correct. In the example of compare2 3 is greater than 2 and 6 is greater than 3, therefore compare2 returns true. compare3 returns false because 8 is not less than 5, therefore the comparison returns false. */
 
 
 /**
@@ -143,7 +298,22 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 
 * Write 5 different assignment statements and `console.log()` the value of the variable after each
 * assignment statement to show the current value. REMEMBER: an assignment is DIFFERENT from a declaration.
-*
+*/
+
+var myBox = (6);
+console.log(myBox);
+
+myBox = 4;
+console.log(myBox);
+
+myBox = 9;
+console.log(myBox);
+
+myBox = 10;
+console.log(myBox);
+
+myBox = 13;
+console.log(myBox);
 
 /**
 * Final Boss 
@@ -169,4 +339,28 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * This function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
+
+var pieResult = {
+    ingredient:"peach",
+    bakePie: function () {
+        return "Today's spepcial" + " " + this.ingredient + " " + "pie.";
+    }
+}
+console.log(pieResult.bakePie());
+
+
+var jumpResult = {
+	height: 9,
+	jump: function () {
+		return "You jumped" + " " + this.height + " " + "feet high!";
+	}
+}
+console.log(jumpResult.jump());
+
+
+function cook(ingredient1, ingredient2, recipeName) {
+    return ingredient1 + " " + "and" + " " + ingredient2 + " " + "make a" + " " + recipeName + "!";
+}
+console.log(cook("Tomatoes", "Cheese", "Pizza"));
+
 
